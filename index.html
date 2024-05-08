@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <title>Youtube Clone</title>
+</head>
+
+<body class="bg-body-tertiary">
+  <div class=" navbar navbar-expand-lg bg-body-tertiary ">
+    <div class="container d-flex justify-content-between flex-wrap ">
+      <div class="row  container">
+
+        <div class="col-4">
+          <a class="navbar-brand mt-2" href="#">
+            <img src="YouTube-Logo-2017-present-removebg-preview.png" alt="Youtube-logo" width="100px">
+          </a>
+        </div>
+
+        <div class="col-4">
+          <form class="d-flex mt-2" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+
+          </form>
+        </div>
+
+        <div class="col-4">
+          <div class="items mt-3 d-flex justify-content-between">
+            <button class="btn"><i class="fa-solid fa-video"></i></button>
+            <button class="btn"><i class="fa-solid fa-bars"></i></button>
+            <button class="btn"><i class="fa-regular fa-bell"></i></button>
+            <button class="btn"> <i class="fa-regular fa-user"></i></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 bg-body-tertiary">
+        <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">Menu</button>
+
+
+
+        <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive"
+          aria-labelledby="offcanvasResponsiveLabel">
+          <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Responsive offcanvas</h5> -->
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body position-fixed my-3 ">
+            <ul>
+              <li><a href="#"><i class="fa-solid fa-house icon"></i>Home</a></li>
+              <li><a href="#"><i class="fa-solid fa-fire-flame-curved icon"></i>Trending</a></li>
+              <li><a href="#"><i class="fas fa-heart icon"></i>Subscription</a></li> 
+              <li><a href="#"><i class="fa-solid fa-bookmark icon"></i>Library</a></li>
+              <li><a href="#"><i class="fa-solid fa-clock-rotate-left icon"></i>Hirstory</a></li>
+              <li><a href="#"><i class="fa-solid fa-play icon"></i>Your Videos</a></li>
+              <li><a href="#"> <i class="fa-solid fa-clock icon"></i>Watch later</a></li>
+              <li><a href="#"><i class="fa-solid fa-thumbs-up icon"></i>Liked videos</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9 mt-3 bg-body-tertiary border  rounded px-2 py-2">
+        <div class="container-fluid ">
+          <div class="row my-2 d-flex justify-content-center align-items-center text-center">
+            <div class="col-md-3 ">
+
+              <div class="card">
+                <img src="pic-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body w-100">
+                  <!-- user image and content -->
+                  <div class="media d-flex flex-row mx-2">
+                    <!-- user image -->
+                    <img src="pic-1.jpg" alt="userImage" class="user-image mr-3">
+                    <!-- user content -->
+                    <div class="media-body mx-2">
+                      <h5 class="mt-0">User name</h5>
+                      <p>Some discription or content</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+
+              <div class="card">
+                <img src="pic-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body w-100">
+                  <!-- user image and content -->
+                  <div class="media d-flex flex-row mx-2">
+                    <!-- user image -->
+                    <img src="pic-1.jpg" alt="userImage" class="user-image mr-3">
+                    <!-- user content -->
+                    <div class="media-body mx-2">
+                      <h5 class="mt-0">User name</h5>
+                      <p>Some discription or content</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+
+              <div class="card">
+                <img src="pic-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body w-100">
+                  <!-- user image and content -->
+                  <div class="media d-flex flex-row mx-2">
+                    <!-- user image -->
+                    <img src="pic-1.jpg" alt="userImage" class="user-image mr-3">
+                    <!-- user content -->
+                    <div class="media-body mx-2">
+                      <h5 class="mt-0">User name</h5>
+                      <p>Some discription or content</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="pic-4.jpeg" class="card-img-top" alt="...">
+                <div class="card-body w-100">
+                  <!-- user image and content -->
+                  <div class="media d-flex flex-row mx-2">
+                    <!-- user image -->
+                    <img src="images/pic-1.jpg" alt="userImage" class="user-image mr-3">
+                    <!-- user content -->
+                    <div class="media-body mx-2">
+                      <h5 class="mt-0">User name</h5>
+                      <p>Some discription or content</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-2 d-flex justify-content-center align-items-center text-center">
+            <div class="col-md-3 ">
+
+              <div class="card">
+                <img src="pic-5.jpg" class="card-img-top" alt="...">
+                <div class="card-body w-100">
+                  <!-- user image and content -->
+                  <div class="media d-flex flex-row mx-2">
+                    <!-- user image -->
+                    <img src="pic-1.jpg" alt="userImage" class="user-image mr-3">
+                    <!-- user content -->
+                    <div class="media-body mx-2">
+                      <h5 class="mt-0">User name</h5>
+                      <p>Some discription or content</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+
+              <div class="card">
+                <img src="pic-6.jpg" class="card-img-top" alt="...">
+                <div class="card-body w-100">
+                  <!-- user image and content -->
+                  <div class="media d-flex flex-row mx-2">
+                    <!-- user image -->
+                    <img src="pic-6.jpg" alt="userImage" class="user-image mr-3">
+                    <!-- user content -->
+                    <div class="media-body mx-2">
+                      <h5 class="mt-0">User name</h5>
+                      <p>Some discription or content</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+
+              <div class="card">
+                <img src="pic-7.jpg" class="card-img-top" alt="...">
+                <div class="card-body w-100">
+                  <!-- user image and content -->
+                  <div class="media d-flex flex-row mx-2">
+                    <!-- user image -->
+                    <img src="pic-7.jpg" alt="userImage" class="user-image mr-3">
+                    <!-- user content -->
+                    <div class="media-body mx-2">
+                      <h5 class="mt-0">User name</h5>
+                      <p>Some discription or content</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="pic-8.jpg" class="card-img-top" alt="...">
+                <div class="card-body w-100">
+                  <!-- user image and content -->
+                  <div class="media d-flex flex-row mx-2">
+                    <!-- user image -->
+                    <img src="pic-8.jpg" alt="userImage" class="user-image mr-3">
+                    <!-- user content -->
+                    <div class="media-body mx-2">
+                      <h5 class="mt-0">User name</h5>
+                      <p>Some discription or content</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-2 d-flex justify-content-center align-items-center text-center">
+            <div class="col-md-3 ">
+              <div class="card">
+                <img src="pic-9.jpg" class="card-img-top" alt="...">
+                <div class="card-body w-100">
+                  <!-- user image and content -->
+                  <div class="media d-flex flex-row mx-2">
+                    <!-- user image -->
+                    <img src="pic-9.jpg" alt="userImage" class="user-image mr-3">
+                    <!-- user content -->
+                    <div class="media-body mx-2">
+                      <h5 class="mt-0">User name</h5>
+                      <p>Some discription or content</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="pic-10.jpg" class="card-img-top" alt="...">
+                <div class="card-body w-100">
+                  <!-- user image and content -->
+                  <div class="media d-flex flex-row mx-2">
+                    <!-- user image -->
+                    <img src="pic-10.jpg" alt="userImage" class="user-image mr-3">
+                    <!-- user content -->
+                    <div class="media-body mx-2">
+                      <h5 class="mt-0">User name</h5>
+                      <p>Some discription or content</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="pic-11.jpg" class="card-img-top" alt="...">
+                <div class="card-body w-100">
+                  <!-- user image and content -->
+                  <div class="media d-flex flex-row mx-2">
+                    <!-- user image -->
+                    <img src="pic-11.jpg" alt="userImage" class="user-image mr-3">
+                    <!-- user content -->
+                    <div class="media-body mx-2">
+                      <h5 class="mt-0">User name</h5>
+                      <p>Some discription or content</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="pic-12.jpg" class="card-img-top" alt="...">
+                <div class="card-body w-100">
+                  <!-- user image and content -->
+                  <div class="media d-flex flex-row mx-2">
+                    <!-- user image -->
+                    <img src="pic-12.jpg" alt="userImage" class="user-image mr-3">
+                    <!-- user content -->
+                    <div class="media-body mx-2">
+                      <h5 class="mt-0">User name</h5>
+                      <p>Some discription or content</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/f10fd9db1a.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

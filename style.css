@@ -1,0 +1,63 @@
+
+.items>button>i{
+    font-size: x-large;
+}
+
+.sideBar{
+    position: sticky;
+}
+
+.offcanvas-body>ul>li{
+    margin-bottom:35px;
+    position: sticky;
+    list-style-type: none;
+    color: black;
+   
+}
+ul{
+    width: 100%;
+}
+ul>li>a{
+    text-decoration:none;
+    color: black;
+    margin-top: 20px;
+    
+}
+ul>li>a:hover{
+   font-size: x-large;
+    
+}
+
+
+/* Custom CSS for controlling card and image */
+.card {
+    width: 100%; /* Set card width to fill its container */
+    border: 1px solid #ccc; /* Optional: Add a border for visual clarity */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth effect */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Align card content */
+    position: relative; /* Ensure relative positioning for absolute centering */
+}
+
+.card-img-top {
+    max-width: 100%; /* Ensure the image width does not exceed the card width */
+    height: 250px; /* Ensure the image height does not exceed the card height */
+    object-fit: fill; /* Maintain aspect ratio and fit inside the container */
+}
+.user-image{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.icon {
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.icon:hover {
+    color: gray;
+}
